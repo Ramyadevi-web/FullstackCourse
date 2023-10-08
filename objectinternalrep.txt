@@ -1,0 +1,27 @@
+Object:
+     Object is an important datatye in JavaScript. Object is different from all primitive datatypes.
+primitive datatyes stores single value of one datatype only at a time whereas object stores the combination
+of primitive datatypes as well ass reference datatye
+
+     object contains key:value pairs
+       key is a variable and value is a value which is going to assign to our variable(key)
+    
+     Syntax of object:
+             var objname = new Object();
+
+             objname --> User-defined name
+     Accessing object:
+        1. Dot Notation - objname.key;
+        2. Box Notation - objname[key];
+
+creating an object student:
+
+var student = new Object();
+student.name = "Ramya";
+student.age = "30";
+student.gender = "female";
+        
+To delete an object property gender:
+
+  delete student.gender;
+  
