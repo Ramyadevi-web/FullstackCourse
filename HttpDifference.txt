@@ -1,0 +1,31 @@
+Difference between HTTP1.1 vs HTTP2
+
+1. HTTP1.1 - First version created in 1997.
+2. It is slower comparatively to HTTP2.
+3. It sends data one after another.
+     For example, If Ashok and Ramya are friends and they have only mail communication between them.
+     Ashok request Ramya to send her novel to read, Ramya decided to sent the novel in HTTP1.1 -
+     she send one chapter first, after she get confirmation from ashok then only she send the next
+     chapter likewise she can send one after another only.Ashok take several weeks to complete the
+     nover.
+4. It loads one resource after another, so that if one resource is not loaded it blocks all other
+   resources.
+5. To speed up the web performance, both the HTTP1.1 and HTTP2.2 compress the HTTP messages to make
+   them smaller.
+
+1.HTTP2.2 - Newer version created in 2015.
+2.It is faster and more efficient than HTTP1.1 because of prioritized of the content when loading.
+   - It loads the content fist what the user see immediately and which one takes less time.
+   - It loads the content latter what the use can't see immediately. For example, image at the bottom page.
+   - It offers the feature called weighted prioritization.This allows developers to decide what page resource will load first.
+        Developer can send each data with different weight value that value tells to the user which page will render first.
+        This type of data sending is called multiplexing.
+3.It sends each data seperately but at the same time.Also, number the each one that is weighted
+     prioritation.
+        In our example scenario, Ramya numbering the each chapter like chapter1,chapter2.... and 
+        send the data seperately at the same time.Here, Ashok can read the entire novel in few days.
+        It loads fater than HTTP1.1.
+4.It loads all the resources seperately at the parallel.So if one resuorce is not loading, it doesn't 
+  affect any other resources.
+5.HTTP2.2 uses the advanced compression method called HPACK. It eliminates all the redundant 
+information in HTTP header packets.
